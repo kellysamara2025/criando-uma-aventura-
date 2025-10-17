@@ -2,12 +2,23 @@ body {
     background-color: #c944be;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
-
+    displa: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
 button {
     background-color: #cdb2e6;
     color: rgb(134, 108, 108);
     font -famiy: "Bai jamjuree", sans- serif;
+}
+ 
+.passo {
+    display: none;
+}
 
-        }
+.passo.ativo {
+    display:block;
+}
